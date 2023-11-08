@@ -1,3 +1,9 @@
+# Product App
+This project demonstrates how to use XML files with latest versions of laravel framework.
+
+## Developer Notes
+Contributors: Onur GÖKER
+Contact: info[at]onurgoker.com
 
 ## Requirements
 - Composer is required to initialize the application. You need to clone the repository and execute the following command in the root directory of the application:
