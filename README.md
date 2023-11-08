@@ -1,39 +1,66 @@
-# productSync
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-Hedef: Bir Laravel komutu (artisan command) yazın, bu komut belirlenen periyodik aralıklarla belirli bir URL'den bir XML dosyası indirecek, içeriği işleyecek ve veritabanındaki products tablosunu güncelleyecektir.
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-Görevler:
+## About Laravel
 
-XML İndirme:
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-Belirlenen URL'den XML dosyasını çekmek için bir HTTP istemcisi kullanın.İndirme işlemini Laravel'in görev zamanlaması (task scheduling) ile periyodik olarak ayarlayın.
-XML İşleme:
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-İndirilen XML dosyasını parse edin ve ürün verilerini alın.Ürün verileri arasında en azından id, fiyat ve miktar bilgileri bulunmalıdır.
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-Veritabanı Güncellemesi:
+## Learning Laravel
 
-products tablosunda her bir ürün için id değerini kontrol edin.Eğer ürün veritabanında yoksa, yeni bir kayıt olarak ekleyin.Eğer ürün veritabanında varsa ve fiyat veya miktar değerleri güncellenmişse, ilgili kaydı güncelleyin.XML'de olmayan ancak veritabanında olan ürünleri tespit edin ve silin.
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-Hata Yönetimi:
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-İşlemler sırasında oluşabilecek hataları ele alacak ve loglayacak bir mekanizma ekleyin.
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-Optimizasyon:
+## Laravel Sponsors
 
-Veritabanı işlemlerinin performansını maksimize edecek yöntemleri uygulayın, örneğin toplu ekleme ve güncelleme işlemleri.
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-Testler:
+### Premium Partners
 
-Bu işlevsellik için birim testleri yazın.
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[WebReinvent](https://webreinvent.com/)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Jump24](https://jump24.co.uk)**
+- **[Redberry](https://redberry.international/laravel/)**
+- **[Active Logic](https://activelogic.com)**
+- **[byte5](https://byte5.de)**
+- **[OP.GG](https://op.gg)**
 
-Teslimat Kriterleri:
+## Contributing
 
-Komut dosyası ve ilgili tüm dosyalar GitHub üzerinden bir repo halinde teslim edilmelidir. Veritabanı migrasyonları ve seed'leri, test edilebilir veri seti oluşturmak üzere dahil edilmelidir. README dosyası, kurulum ve çalıştırma talimatlarını içermelidir.
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-Cevap alanına repo url iletiniz.
+## Code of Conduct
 
-* Aşağıdaki url ler örnek çalışma için kullanılabilir. Ancak repo içerisinde bulundurulmamalıdır.
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-XML Demo URL 1: https://www.zzgtech.com/demo_data/products_2022_06_01.xml  
-XML Demo URL 2: https://www.zzgtech.com/demo_data/products_2022_06_02.xml
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
