@@ -32,8 +32,8 @@ Teslimat Kriterleri:
 Komut dosyası ve ilgili tüm dosyalar GitHub üzerinden bir repo halinde teslim edilmelidir. Veritabanı migrasyonları ve seed'leri, test edilebilir veri seti oluşturmak üzere dahil edilmelidir. README dosyası, kurulum ve çalıştırma talimatlarını içermelidir.
 
 Cevap alanına repo url iletiniz.
-*
-Aşağıdaki url ler örnek çalışma için kullanılabilir. Ancak repo içerisinde bulundurulmamalıdır.
+
+* Aşağıdaki url ler örnek çalışma için kullanılabilir. Ancak repo içerisinde bulundurulmamalıdır.
 
 XML Demo URL 1: https://www.zzgtech.com/demo_data/products_2022_06_01.xml  
 XML Demo URL 2: https://www.zzgtech.com/demo_data/products_2022_06_02.xml
