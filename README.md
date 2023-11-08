@@ -30,5 +30,5 @@ Cevap alanına repo url iletiniz.
 *
 Aşağıdaki url ler örnek çalışma için kullanılabilir. Ancak repo içerisinde bulundurulmamalıdır.
 
-XML Demo URL 1: https://www.zzgtech.com/demo_data/products_2022_06_01.xml
+XML Demo URL 1: https://www.zzgtech.com/demo_data/products_2022_06_01.xml  
 XML Demo URL 2: https://www.zzgtech.com/demo_data/products_2022_06_02.xml
